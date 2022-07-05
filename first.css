@@ -73,3 +73,8 @@ a {
   margin-bottom: 20px;
   /* background-color: teal; */
 }
+a:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+}
