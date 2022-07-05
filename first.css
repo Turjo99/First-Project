@@ -14,6 +14,15 @@ body {
   justify-content: center;
   background-image: url(img/dream-bg.png);
   background-repeat: no-repeat;
+  background-position: right;
+}
+.header-secondary {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  background-image: url(img/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
 .orange {
   color: orange;
@@ -33,4 +42,34 @@ h3 {
 }
 img {
   width: 70%;
+}
+.center {
+  text-align: center;
+}
+.about {
+  display: flex;
+  padding: 100px;
+  justify-content: center;
+  background-image: url(img/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.exp {
+  border-left: 6px teal solid;
+  padding: 20px;
+  box-shadow: 5px 10px 8px #888888;
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px;
+  margin-top: 50px;
+  padding: 8px 8px 14px 14px;
+  background-color: teal;
+}
+.btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /* background-color: teal; */
 }
