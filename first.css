@@ -12,6 +12,7 @@ body {
   display: flex;
   padding: 100px;
   justify-content: center;
+  align-items: center;
   background-image: url(img/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
